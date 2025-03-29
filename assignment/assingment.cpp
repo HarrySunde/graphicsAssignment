@@ -270,7 +270,8 @@ void normal(int key, int x, int y) {
     // reference lec o5 object modeling pg 32
     // need to adjust display settings also create if statement checking q
     if (key == 'q') wireframeMode = true;
-
+	glutPostRedisplay();
+	
 }
 
 
